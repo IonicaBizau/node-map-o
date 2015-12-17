@@ -12,13 +12,13 @@ $ npm i --save map-o
 
 ```js
 // Dependencies
-var Mapo = require("map-o");
+const mapObject = require("map-o");
 
 // Modify this object
-console.log(Mapo({
+console.log(mapObject({
     location: "Earth"
   , age: 10
-}, function (name, value) {
+}, (value, name) => {
     if (name === "location") {
         return "Location: " + value;
     }
@@ -28,23 +28,34 @@ console.log(Mapo({
     }
 }));
 // => { location: 'Location: Earth', age: 42 }
+
+var obj = {
+    two: 2
+  , nine: 9
+  , ten: 10
+};
+
+// Calculate the squares, but don't override the object
+var squares = mapObject(obj, x => x * x, true);
+console.log("input:", obj);
+// => input: { two: 2, nine: 9, ten: 10 }
+
+console.log("squares:", squares);
+// => squares: { two: 4, nine: 81, ten: 100 }
 ```
 
 ## Documentation
 
-### `Mapo(obj, fn, clone)`
+### `mapObject(obj, fn, clone)`
 Array-map like for objects.
 
 #### Params
 - **Object** `obj`: The input object.
 - **Function** `fn`: A function returning the field values.
-- **Boolean** `clone`: If `true`, the input object will be cloned, so the original object will not be changed.
+- **Boolean|Object** `clone`: If `true`, the input object will be cloned. If `clone` is an object, it will be used as target object.
 
 #### Return
 - **Object** The modified object.
-
-### `proto()`
-Appends the `map` method to the `Object` prototype.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
@@ -53,6 +64,8 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - [`emojic`](https://github.com/IonicaBizau/emojic#readme)
+
+ - [`engine-flow-types`](https://github.com/jillix/engine-flow-types#readme) by jillix
 
  - [`enny`](https://github.com/IonicaBizau/enny) by jillix
 
