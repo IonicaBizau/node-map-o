@@ -1,6 +1,6 @@
 {
   "name": "map-o",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Array-map like function for objects.",
   "main": "lib/index.js",
   "directories": {
@@ -29,5 +29,16 @@
   },
   "devDependencies": {
     "tester": "^1.3.0"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
