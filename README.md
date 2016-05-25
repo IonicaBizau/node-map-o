@@ -1,5 +1,7 @@
 
-# map-o [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/map-o.svg)](https://www.npmjs.com/package/map-o) [![Downloads](https://img.shields.io/npm/dt/map-o.svg)](https://www.npmjs.com/package/map-o) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# map-o
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/map-o.svg)](https://www.npmjs.com/package/map-o) [![Downloads](https://img.shields.io/npm/dt/map-o.svg)](https://www.npmjs.com/package/map-o) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Array-map like function for objects.
 
@@ -73,11 +75,11 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`compute-size`](https://github.com/IonicaBizau/compute-size#readme)—Helper tool for resizing the things.
  - [`emoji-name-map`](https://github.com/IonicaBizau/emoji-name-map#readme)—Name to unicode emoji mapping.
- - [`emojic`](https://github.com/IonicaBizau/emojic#readme)—Emoji in your Node.js command line apps.
  - [`engine-builder`](https://github.com/IonicaBizau/engine-parser) (by jillix)—Engine composition parser.
  - [`engine-flow-types`](https://github.com/jillix/engine-flow-types#readme) (by jillix)—Low level library providing Engine flow types.
  - [`enny`](https://github.com/IonicaBizau/enny) (by jillix)—Generate Engine compositions from human-readable inputs.
  - [`packy`](https://github.com/IonicaBizau/packy#readme)—Set default fields in your package.json files.
+ - [`ship-release`](https://github.com/IonicaBizau/ship-release#readme)—Publish new versions on GitHub and npm with ease.
 
 ## :scroll: License
 
