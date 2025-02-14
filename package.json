@@ -1,6 +1,6 @@
 {
   "name": "map-o",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "Array-map like function for objects.",
   "main": "lib/index.js",
   "directories": {
@@ -41,6 +41,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
